@@ -10,19 +10,19 @@ export default function HomePage() {
 
         <div className="h-screen flex items-center">
           
-          <div className="pt-20 text-white flex flex-col justify-center items-center mx-auto [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">
+          <div className="pt-10 px-5 text-white flex flex-col justify-center items-center mx-auto [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">
             <br />
             <br />
             <br />
             <br />
             <br />
-            <h1 className="font-italiana font-extralight text-3xl lg:text-5xl">
+            <h1 className=" text-center font-italiana font-extralight text-3xl lg:text-5xl">
               Reflections on
             </h1>
             <br />
             <br />
             <br />
-            <h2 className="pt-10 font-italiana font-extralight text-4xl md:text-5xl lg:text-7xl">
+            <h2 className="pt-5 text-center center font-italiana font-extralight text-4xl md:text-5xl lg:text-7xl">
               <em>Take Me to the Palace of Love</em>,
             </h2>
             <br />
@@ -33,8 +33,7 @@ export default function HomePage() {
             <br />
             <br />
             <br />
-            <br />
-            <p className="pt-20 text-center inline-block font-italiana font-extralight text-2xl md:text-3xl lg:text-3xl mb-4">
+            <p className="pt-10 pb-10 text-center inline-block font-italiana font-extralight text-2xl md:text-3xl lg:text-3xl mb-4">
               Syracuse University Art Museum
             </p>
           </div>
