@@ -4,6 +4,7 @@ import SocialIcons from "../../components/Socialicons";
 import Link from "next/link";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import GlightboxDemo from "../../components/GlightboxDemo";
+import { TbArrowBack } from "react-icons/tb"; 
 
 const gallery1 = [
   {
@@ -63,13 +64,25 @@ export default function MermaidThoughtsEssay() {
                 <br />
                 <br />
                 <p className="border-t border-[#dadada] mb-4"></p>
-                <sup id="fn1">1. Hans Christian Andersen, <i>The Little Mermaid</i>, ed. Michael Hague (New York: Henry Holt, 1993).<Link href="#ref1" title="Jump back to footnote 1 in the text.">↩</Link></sup>
+                <sup id="fn1">
+                  1. Hans Christian Andersen, <i>The Little Mermaid</i>, ed. Michael Hague (New York: Henry Holt, 1993).
+                  <Link href="#ref1" title="Jump back to footnote 1 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn2">2. Homer, <i>The Odyssey</i>, ed. Robert Fitzgerald (Garden City, N.Y.: Doubleday, 1961).<Link href="#ref2" title="Jump back to footnote 2 in the text.">↩</Link></sup>
+                <sup id="fn2">
+                  2. Homer, <i>The Odyssey</i>, ed. Robert Fitzgerald (Garden City, N.Y.: Doubleday, 1961).
+                  <Link href="#ref2" title="Jump back to footnote 2 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn3">3. William Shakespeare, “Antony and Cleopatra,” in <i>Tragedies Vol. 2</i>, ed. Sylvan Barnet (New York: Alfred. A. Knopf, 1993).<Link href="#ref3" title="Jump back to footnote 3 in the text.">↩</Link></sup>
+                <sup id="fn3">
+                  3. William Shakespeare, “Antony and Cleopatra,” in <i>Tragedies Vol. 2</i>, ed. Sylvan Barnet (New York: Alfred. A. Knopf, 1993).
+                  <Link href="#ref3" title="Jump back to footnote 3 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn4">4. Henry James, <i>The Turn of the Screw</i> (New York: Dover Publications, 1991).<Link href="#ref4" title="Jump back to footnote 4 in the text.">↩</Link></sup>
+                <sup id="fn4">
+                  4. Henry James, <i>The Turn of the Screw</i> (New York: Dover Publications, 1991).
+                  <Link href="#ref4" title="Jump back to footnote 4 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
                 <br />
               </div>

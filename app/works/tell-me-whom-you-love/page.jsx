@@ -4,6 +4,7 @@ import SocialIcons from "../../components/Socialicons";
 import Link from "next/link";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import GlightboxDemo from "../../components/GlightboxDemo";
+import { TbArrowBack } from "react-icons/tb"; 
 
 const gallery1 = [
   {
@@ -197,17 +198,35 @@ export default function WorldLostEssay() {
                 <br />
                 <br />
                 <p className="border-t border-[#dadada] mb-4"></p>
-                <sup id="fn1">1. For a history of these early Bengali immigrants and relationships they developed, see Vivek Bald, <i>Bengali Harlem and the Lost Histories of South Asian America</i> (Cambridge: Harvard University Press, 2013).<Link href="#ref1" title="Jump back to footnote 1 in the text.">↩</Link></sup>
+                <sup id="fn1">
+                  1. For a history of these early Bengali immigrants and relationships they developed, see Vivek Bald, <i>Bengali Harlem and the Lost Histories of South Asian America</i> (Cambridge: Harvard University Press, 2013).
+                  <Link href="#ref1" title="Jump back to footnote 1 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn2">2. New Orleans, Louisiana, U.S., Marriage Records Index, 1831-1964. Ancestry.com; Fifteenth Census of the  United States,1930: Population Schedule, New Orleans. Ancestry.com.<Link href="#ref2" title="Jump back to footnote 2 in the text.">↩</Link></sup>
+                <sup id="fn2">
+                  2. New Orleans, Louisiana, U.S., Marriage Records Index, 1831-1964. Ancestry.com; Fifteenth Census of the  United States,1930: Population Schedule, New Orleans. Ancestry.com.
+                  <Link href="#ref2" title="Jump back to footnote 2 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn3">3. Thirteenth Census of the United States,1910: Population Schedule, New Orleans. Ancestry.com; <a href="https://www.census.gov/programs-surveys/decennial-census/technical-documentation/questionnaires/1910/1910-instructions.html" target="_blank">“1910 Census Instructions to Enumerators,”</a> United States Census Bureau. The scan of the original census schedule appears to label Joseph as “Mex,” for Mexican, which was not an official census classification that year. The transcription lists him as “Mulatto.”<Link href="#ref3" title="Jump back to footnote 3 in the text.">↩</Link></sup>
+                <sup id="fn3">
+                  3. Thirteenth Census of the United States,1910: Population Schedule, New Orleans. Ancestry.com; <a href="https://www.census.gov/programs-surveys/decennial-census/technical-documentation/questionnaires/1910/1910-instructions.html" target="_blank">“1910 Census Instructions to Enumerators,”</a> United States Census Bureau. The scan of the original census schedule appears to label Joseph as “Mex,” for Mexican, which was not an official census classification that year. The transcription lists him as “Mulatto.”
+                  <Link href="#ref3" title="Jump back to footnote 3 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn4">4. Twelfth Census of the United States,1900: Schedule No. 1 - Population, New Orleans. Ancestry.com; <a href="https://www.census.gov/programs-surveys/decennial-census/technical-documentation/questionnaires/1900/1900-instructions.html" target="_blank">1900 Census Instructions to Enumerators</a>.<Link href="#ref4" title="Jump back to footnote 4 in the text.">↩</Link></sup>
+                <sup id="fn4">
+                  4. Twelfth Census of the United States,1900: Schedule No. 1 - Population, New Orleans. Ancestry.com; <a href="https://www.census.gov/programs-surveys/decennial-census/technical-documentation/questionnaires/1900/1900-instructions.html" target="_blank">1900 Census Instructions to Enumerators</a>.
+                  <Link href="#ref4" title="Jump back to footnote 4 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn5">5. Fifteenth Census of the United States,1930: Population Schedule, New Orleans. Ancestry.com; <i>United States v. Bhagat Singh Thind</i>, 261 U. S. 204 (1923); <a href="https://www.census.gov/history/www/through_the_decades/index_of_questions/1930_1.html" target="_blank">United States Census, History, 1930</a>. See Ian Haney-Lopez, <i>White by Law: The Legal Construction of Race</i> NY: New York University Press, 1996, pp. 61-62; Balk, <i>Bengali Harlem</i>, p. 2; Melissa Nobles, <i>Shades of Citizenship: Race and the Census in Modern Politics</i> (Stanford: Stanford University Press, 2000) pp. 69-73.<Link href="#ref5" title="Jump back to footnote 5 in the text.">↩</Link></sup>
+                <sup id="fn5">
+                  5. Fifteenth Census of the United States,1930: Population Schedule, New Orleans. Ancestry.com; <i>United States v. Bhagat Singh Thind</i>, 261 U. S. 204 (1923); <a href="https://www.census.gov/history/www/through_the_decades/index_of_questions/1930_1.html" target="_blank">United States Census, History, 1930</a>. See Ian Haney-Lopez, <i>White by Law: The Legal Construction of Race</i> NY: New York University Press, 1996, pp. 61-62; Balk, <i>Bengali Harlem</i>, p. 2; Melissa Nobles, <i>Shades of Citizenship: Race and the Census in Modern Politics</i> (Stanford: Stanford University Press, 2000) pp. 69-73.
+                  <Link href="#ref5" title="Jump back to footnote 5 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn6">6. Sixteenth Census of the United States,1940: Population Schedule, New Orleans. Ancestry.com; Ali Joseph Abdin, Registration Card D.S.S. Form 1, October 16, 1940. Ancestry.com; John Adams Abdin, Registration Card D.S.S. Form 1, October 16, 1940. Ancestry.com.<Link href="#ref6" title="Jump back to footnote 6 in the text.">↩</Link></sup>
+                <sup id="fn6">
+                  6. Sixteenth Census of the United States,1940: Population Schedule, New Orleans. Ancestry.com; Ali Joseph Abdin, Registration Card D.S.S. Form 1, October 16, 1940. Ancestry.com; John Adams Abdin, Registration Card D.S.S. Form 1, October 16, 1940. Ancestry.com.
+                  <Link href="#ref6" title="Jump back to footnote 6 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
                 <br />
               </div>

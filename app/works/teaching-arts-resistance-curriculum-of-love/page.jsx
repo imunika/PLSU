@@ -4,6 +4,7 @@ import SocialIcons from "../../components/Socialicons";
 import Link from "next/link";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import GlightboxDemo from "../../components/GlightboxDemo";
+import { TbArrowBack } from "react-icons/tb"; 
 
 const gallery1 = [
   {
@@ -126,19 +127,40 @@ export default function InstallingPalaceLove() {
                 <br />
                 <br />
                 <p className="border-t border-[#dadada] mb-4"></p>
-                <sup id="fn1">1. Michel Foucault, <i>The History of Sexuality: Vol. 1 An Introduction</i>, (London: Allen Lane, 1979), 93. <Link href="#ref1" title="Jump back to footnote 1 in the text.">↩</Link></sup>
+                <sup id="fn1">
+                  1. Michel Foucault, <i>The History of Sexuality: Vol. 1 An Introduction</i>, (London: Allen Lane, 1979), 93.
+                  <Link href="#ref1" title="Jump back to footnote 1 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn2">2. Edward W. Said, <i>Orientalism</i>, (London: Penguin Books, 1978). <Link href="#ref2" title="Jump back to footnote 2 in the text.">↩</Link></sup>
+                <sup id="fn2">
+                  2. Edward W. Said, <i>Orientalism</i>, (London: Penguin Books, 1978).
+                  <Link href="#ref2" title="Jump back to footnote 2 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn3">3. Giorgio Agamben, <i>Homo Sacer: Sovereign Power and Bare Life</i>, (Stanford: Stanford University Press, 1998).<Link href="#ref3" title="Jump back to footnote 3 in the text.">↩</Link></sup>
+                <sup id="fn3">
+                  3. Giorgio Agamben, <i>Homo Sacer: Sovereign Power and Bare Life</i>, (Stanford: Stanford University Press, 1998).
+                  <Link href="#ref3" title="Jump back to footnote 3 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn4">4. Gayatri Chakravorty Spivak, <i>Can the Subaltern Speak?</i> In Marxism and the Interpretation of Culture, ed. Cary Nelson and Lawrence Grossberg. (Urbana: University of Illinois Press, 1988), 271–313.<Link href="#ref4" title="Jump back to footnote 4 in the text.">↩</Link></sup>
+                <sup id="fn4">
+                  4. Gayatri Chakravorty Spivak, <i>Can the Subaltern Speak?</i> In Marxism and the Interpretation of Culture, ed. Cary Nelson and Lawrence Grossberg. (Urbana: University of Illinois Press, 1988), 271–313.
+                  <Link href="#ref4" title="Jump back to footnote 4 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn5">5. Amilcar Cabral, “National Liberation and Culture.” <i>Transition</i>, no. 45 (1974), 12–17.<Link href="#ref5" title="Jump back to footnote 5 in the text.">↩</Link></sup>
+                <sup id="fn5">
+                  5. Amilcar Cabral, “National Liberation and Culture.” <i>Transition</i>, no. 45 (1974), 12–17.
+                  <Link href="#ref5" title="Jump back to footnote 5 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn6">6. World Meteorological Organization. <a href="https://public.wmo.int/en/media/news/preliminary-data-shows-hottest-week-record-unprecedented-sea-surface-temperatures-and" target="_blank">“Preliminary Data Shows Hottest Week on Record. Unprecedented Sea Surface Temperatures and Antarctic Sea Ice Loss.”</a> July 10, 2023.<Link href="#ref6" title="Jump back to footnote 6 in the text.">↩</Link></sup>
+                <sup id="fn6">
+                  6. World Meteorological Organization. <a href="https://public.wmo.int/en/media/news/preliminary-data-shows-hottest-week-record-unprecedented-sea-surface-temperatures-and" target="_blank">“Preliminary Data Shows Hottest Week on Record. Unprecedented Sea Surface Temperatures and Antarctic Sea Ice Loss.”</a> July 10, 2023.
+                  <Link href="#ref6" title="Jump back to footnote 6 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn7">7. Richard Perez-Pena. <a href="https://www.nytimes.com/2023/06/23/world/europe/titan-sub-greek-migrant-boat.html" target="_blank">“5 Deaths at Sea Gripped the World. Hundreds of Others Got a Shrug.”</a> New York Times, June 23, 2023.<Link href="#ref7" title="Jump back to footnote 7 in the text.">↩</Link></sup>
+                <sup id="fn7">
+                  7. Richard Perez-Pena. <a href="https://www.nytimes.com/2023/06/23/world/europe/titan-sub-greek-migrant-boat.html" target="_blank">“5 Deaths at Sea Gripped the World. Hundreds of Others Got a Shrug.”</a> New York Times, June 23, 2023.
+                  <Link href="#ref7" title="Jump back to footnote 7 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
                 <br />
               </div>

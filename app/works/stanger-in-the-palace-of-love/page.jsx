@@ -4,6 +4,7 @@ import SocialIcons from "../../components/Socialicons";
 import Link from "next/link";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import GlightboxDemo from "../../components/GlightboxDemo";
+import { TbArrowBack } from "react-icons/tb"; 
 
 const gallery1 = [
   {
@@ -135,27 +136,60 @@ export default function WorldLostEssay() {
                 <br />
                 <br />
                 <p className="border-t border-[#dadada] mb-4"></p>
-                <sup id="fn1">1. Frantz Fanon, <i>Black Skin White Masks</i> (London: Pluto, 1986), 42.<Link href="#ref1" title="Jump back to footnote 1 in the text.">↩</Link></sup>
+                <sup id="fn1">
+                  1. Frantz Fanon, <i>Black Skin White Masks</i> (London: Pluto, 1986), 42.
+                  <Link href="#ref1" title="Jump back to footnote 1 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn2">2. Pratapaditya Pal et al., <i>Romance of the Taj Mahal</i> (London: Thames & Hudson, 1989), 199.<Link href="#ref2" title="Jump back to footnote 2 in the text.">↩</Link></sup>
+                <sup id="fn2">
+                  2. Pratapaditya Pal et al., <i>Romance of the Taj Mahal</i> (London: Thames & Hudson, 1989), 199.
+                  <Link href="#ref2" title="Jump back to footnote 2 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn3">3. George L. Mosse, “Racism and Nationalism”, Lasse Hodne, <i>Nations and Nationalism</i>, Vol. 1, No. 2, 1995, 165-166; “Winckelmann’s Apollo and the Physiognomy of Race”, <i>The Nordic Journal of Aesthetics</i> Vol. 29, No. 59, 2020, 6-35<Link href="#ref3" title="Jump back to footnote 3 in the text.">↩</Link></sup>
+                <sup id="fn3">
+                  3. George L. Mosse, “Racism and Nationalism”, Lasse Hodne, <i>Nations and Nationalism</i>, Vol. 1, No. 2, 1995, 165-166; “Winckelmann’s Apollo and the Physiognomy of Race”, <i>The Nordic Journal of Aesthetics</i> Vol. 29, No. 59, 2020, 6-35.
+                  <Link href="#ref3" title="Jump back to footnote 3 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn4">4. Hannah Arendt, <i>The Human Condition</i> (Chicago and London: University of Chicago Press, 1958), 176-177.<Link href="#ref4" title="Jump back to footnote 4 in the text.">↩</Link></sup>
+                <sup id="fn4">
+                  4. Hannah Arendt, <i>The Human Condition</i> (Chicago and London: University of Chicago Press, 1958), 176-177.
+                  <Link href="#ref4" title="Jump back to footnote 4 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn5">5. Ariella Aïsha Azoulay, <i>Potential History: Unlearning Imperialism</i> (London: Verso, 2019), 89-93.<Link href="#ref5" title="Jump back to footnote 5 in the text.">↩</Link></sup>
+                <sup id="fn5">
+                  5. Ariella Aïsha Azoulay, <i>Potential History: Unlearning Imperialism</i> (London: Verso, 2019), 89-93.
+                  <Link href="#ref5" title="Jump back to footnote 5 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn6">6. E. B. Havell, <i>A Handbook to Agra and the Taj: Sikandra, Fatehpur-Sikri and the Neighbourhood</i>. Calcutta: Thacker and Spink, 1924 (2nd edition), v.<Link href="#ref6" title="Jump back to footnote 6 in the text.">↩</Link></sup>
+                <sup id="fn6">
+                  6. E. B. Havell, <i>A Handbook to Agra and the Taj: Sikandra, Fatehpur-Sikri and the Neighbourhood</i>. Calcutta: Thacker and Spink, 1924 (2nd edition), v.
+                  <Link href="#ref6" title="Jump back to footnote 6 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn7">7. Eugenia Herbert, <i>Flora’s Empire: British Gardens in India</i>, 199; <i>The Illustrated London News</i>, October 28, 1843, 288, in Mrinalini Rajagopolan, “From Loot to Trophy,” <i>IIAS Newsletter</i> 57 (Summer 2011), 24.<Link href="#ref7" title="Jump back to footnote 7 in the text.">↩</Link></sup>
+                <sup id="fn7">
+                  7. Eugenia Herbert, <i>Flora’s Empire: British Gardens in India</i>, 199; <i>The Illustrated London News</i>, October 28, 1843, 288, in Mrinalini Rajagopolan, “From Loot to Trophy,” <i>IIAS Newsletter</i> 57 (Summer 2011), 24.
+                  <Link href="#ref7" title="Jump back to footnote 7 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn8">8. Durba Ghosh, “Stabilizing History through Statues, Monuments, and Memorials in Curzon’s India,” <i>The Hsitorical Journal</i>, 66 (2023), 348-369.<Link href="#ref8" title="Jump back to footnote 8 in the text.">↩</Link></sup>
+                <sup id="fn8">
+                  8. Durba Ghosh, “Stabilizing History through Statues, Monuments, and Memorials in Curzon’s India,” <i>The Hsitorical Journal</i>, 66 (2023), 348-369.
+                  <Link href="#ref8" title="Jump back to footnote 8 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn9">9. Quoted in Lawrence John Lumley Dundas Zetland., <i>The Life of Lord Curzon Being the Authorized Biography of George Nathaniel Marquess Curzon of Kedleston K.G.</i>, Ernest Benn Ltd.. United Kingdom. Retrieved from <a href="https://southasiacommons.net/artifacts/2356467/the-life-of-lord-curzon-being-the-authorized-biography-of-george-nathaniel-marquess-curzon-of-kedleston-kg/3326689/" target="_blank">https://southasiacommons.net/artifacts/2356467/the-life-of-lord-curzon-being-the-authorized-biography-of-george-nathaniel-marquess-curzon-of-kedleston-kg/3326689/</a>, 1: 64, 128.<Link href="#ref9" title="Jump back to footnote 9 in the text.">↩</Link></sup>
+                <sup id="fn9">
+                  9. Quoted in Lawrence John Lumley Dundas Zetland., <i>The Life of Lord Curzon Being the Authorized Biography of George Nathaniel Marquess Curzon of Kedleston K.G.</i>, Ernest Benn Ltd.. United Kingdom. Retrieved from <a href="https://southasiacommons.net/artifacts/2356467/the-life-of-lord-curzon-being-the-authorized-biography-of-george-nathaniel-marquess-curzon-of-kedleston-kg/3326689/" target="_blank">https://southasiacommons.net/artifacts/2356467/the-life-of-lord-curzon-being-the-authorized-biography-of-george-nathaniel-marquess-curzon-of-kedleston-kg/3326689/</a>, 1: 64, 128.
+                  <Link href="#ref9" title="Jump back to footnote 9 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn10">10. Walter Benjamin, “Theses on the Philosophy of History,” <i>Illuminations</i> (New York: Schocken, 1969), 261; Benedict Anderson, <i>Imagined Communities: Reflections on the Origin and Spread of Nationalism</i> (New York: Verso, 1991), 24.<Link href="#ref10" title="Jump back to footnote 10 in the text.">↩</Link></sup>
+                <sup id="fn10">
+                  10. Walter Benjamin, “Theses on the Philosophy of History,” <i>Illuminations</i> (New York: Schocken, 1969), 261; Benedict Anderson, <i>Imagined Communities: Reflections on the Origin and Spread of Nationalism</i> (New York: Verso, 1991), 24.
+                  <Link href="#ref10" title="Jump back to footnote 10 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn11">11. W.E. Begley and Z.A. Desai, <i>Taj Mahal: The Illumined Tomb</i> (Cambridge: Aga Khan Program for Islamic Architecture, 1989), 213.<Link href="#ref11" title="Jump back to footnote 11 in the text.">↩</Link></sup>
+                <sup id="fn11">
+                  11. W.E. Begley and Z.A. Desai, <i>Taj Mahal: The Illumined Tomb</i> (Cambridge: Aga Khan Program for Islamic Architecture, 1989), 213.
+                  <Link href="#ref11" title="Jump back to footnote 11 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
                 <br />
               </div>

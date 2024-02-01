@@ -4,6 +4,7 @@ import SocialIcons from "../../components/Socialicons";
 import Link from "next/link";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import GlightboxDemo from "../../components/GlightboxDemo";
+import { TbArrowBack } from "react-icons/tb"; 
 
 const gallery1 = [
   {
@@ -98,17 +99,35 @@ export default function OtherRoutesEssay() {
                 <br />
                 <br />
                 <p className="border-t border-[#d3d3d3] mb-4"></p>
-                <sup id="fn1">1. Kevin Lynch, <i>The Image of the City</i> (Cambridge, MA: The MIT Press, 1960), 1.<Link href="#ref1" title="Jump back to footnote 1 in the text.">↩</Link></sup>
+                <sup id="fn1">
+                  1. Kevin Lynch, <i>The Image of the City</i> (Cambridge, MA: The MIT Press, 1960), 1.
+                  <Link href="#ref1" title="Jump back to footnote 1 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn2">2. Ibid., p. 10<Link href="#ref2" title="Jump back to footnote 2 in the text.">↩</Link></sup>
+                <sup id="fn2">
+                  2. Ibid., p. 10.
+                  <Link href="#ref2" title="Jump back to footnote 2 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn3">3. Çiğdem Kafescioğlu, <i>Constantinopolis/Istanbul: cultural encounter, imperial vision, and the construction of the Ottoman capital</i> (University Park, PA: Pennsylvania State University Press, 2009), 130.<Link href="#ref3" title="Jump back to footnote 3 in the text.">↩</Link></sup>
+                <sup id="fn3">
+                  3. Çiğdem Kafescioğlu, <i>Constantinopolis/Istanbul: cultural encounter, imperial vision, and the construction of the Ottoman capital</i> (University Park, PA: Pennsylvania State University Press, 2009), 130.
+                  <Link href="#ref3" title="Jump back to footnote 3 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn4">4. Edhem Eldem provides a useful history of this process in Eldem, “The Reconversion of the Hagia Sophia into a Mosque: A Historian's Perspective,” <i>Journal of the Ottoman and Turkish Studies Association</i> 8, no. 1 (2021): 243-60.<Link href="#ref4" title="Jump back to footnote 4 in the text.">↩</Link></sup>
+                <sup id="fn4">
+                  4. Edhem Eldem provides a useful history of this process in Eldem, “The Reconversion of the Hagia Sophia into a Mosque: A Historian's Perspective,” <i>Journal of the Ottoman and Turkish Studies Association</i> 8, no. 1 (2021): 243-60.
+                  <Link href="#ref4" title="Jump back to footnote 4 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn3">5. Timur Hammond, <i>Placing Islam: Geographies of Connection in 20th Century Istanbul</i> (Berkeley, CA: University of California Press, 2023), 3-5.<Link href="#ref5" title="Jump back to footnote 5 in the text.">↩</Link></sup>
+                <sup id="fn3">
+                  5. Timur Hammond, <i>Placing Islam: Geographies of Connection in 20th Century Istanbul</i> (Berkeley, CA: University of California Press, 2023), 3-5.
+                  <Link href="#ref5" title="Jump back to footnote 5 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
-                <sup id="fn3">6. Doreen Massey, <i>Space, Place, and Gender</i> (Minneapolis: University of Minnesota Press, 1994), 154.<Link href="#ref6" title="Jump back to footnote 6 in the text.">↩</Link></sup>
+                <sup id="fn3">
+                  6. Doreen Massey, <i>Space, Place, and Gender</i> (Minneapolis: University of Minnesota Press, 1994), 154.
+                  <Link href="#ref6" title="Jump back to footnote 6 in the text."><TbArrowBack size={14} className="inline mb-2"/></Link>
+                </sup>
                 <br />
                 <br />
               </div>
